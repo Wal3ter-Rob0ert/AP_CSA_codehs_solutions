@@ -1,4 +1,4 @@
-public class Art 
+class Art 
 {
     public static void main(String[] args)
     {

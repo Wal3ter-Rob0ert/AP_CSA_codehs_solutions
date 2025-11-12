@@ -1,4 +1,4 @@
-public class Welcome 
+public class Welcome_program 
 {
     public static void main(String[] args)
     {

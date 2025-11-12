@@ -1,4 +1,4 @@
-public class Variables 
+public class Answering_questions 
 {
     public static void main(String[] args)
     {
