@@ -20,5 +20,7 @@ public class Tshirt
 
         cost--;
         System.out.println("Without personalization, the t-shirt costs $" + cost);
+
+        input.close();
     }
 }
