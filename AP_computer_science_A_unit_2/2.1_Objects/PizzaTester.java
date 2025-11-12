@@ -4,6 +4,5 @@ public class PizzaTester
     {
         System.out.println("You should be able to run this");
         System.out.println("if you added the instance variables correctly");
-        
     }
 }
