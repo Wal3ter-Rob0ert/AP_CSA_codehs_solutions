@@ -10,7 +10,7 @@ public class Bot2 {
     public void greeting(){
         System.out.print("Hello ");
         System.out.print(name);
-        System.out.println("! My name is UNIVAC!");
+        System.out.println("! My name is UNIVAC!"); 
         System.out.println("Are you having fun programming today?");
     }
 
