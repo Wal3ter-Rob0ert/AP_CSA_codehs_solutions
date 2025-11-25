@@ -13,5 +13,7 @@ public class AddedSugar
         boolean canEatMore = grams < 30;
         
         System.out.println("You can eat more sugar: " + canEatMore);
+
+        input.close();
     }
 }

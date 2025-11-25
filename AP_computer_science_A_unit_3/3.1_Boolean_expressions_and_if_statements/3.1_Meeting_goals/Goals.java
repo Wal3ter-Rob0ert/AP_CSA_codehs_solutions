@@ -22,5 +22,7 @@ public class Goals
         System.out.println("Went over goal? " +wentOver);
         System.out.println("Did not meet goal? " + underGoal);
         System.out.println("Met goal exactly? " + metGoal);
+
+        input.close();
     }
 }
