@@ -8,3 +8,7 @@ Starting from Unit 2, the curriculum introduces object-oriented programming (OOP
 PS(16.11.2025)
 
 The solutions provided are intended solely for familiarization and serve as a reference in case of difficulties. Direct copying without understanding is not recommended and is not conducive to learning.
+
+PS(29.11.2025)
+
+If you appreciated my work, then please give me a star.
