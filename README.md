@@ -9,3 +9,8 @@ Starting from Unit 2, the curriculum introduces object-oriented programming (OOP
 PS(29.11.2025)
 
 If you appreciated my work, then please give me a star.
+
+
+PS(18.12.2025)
+
+Please let me know if you have internship opportunities
