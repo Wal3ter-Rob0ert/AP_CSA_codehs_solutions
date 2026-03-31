@@ -4,45 +4,45 @@ public class MaxMin
 {
     public static void main(String[] args)
     {
-        Scanner scanner = new Scanner(System.in);
-         
-        int number;
-        int max = 0;
-        int min = 0;
-        boolean first = true;
-        
-        while (true)
-        {
-            System.out.println("Enter a number or 0 to quit: ");
-            number = scanner.nextInt();
+        try (Scanner scanner = new Scanner(System.in)) {
+            int number;
+            int max = 0;
+            int min = 0;
+            boolean first = true;
             
-            if (number == 0)
+            while (true)
             {
-                break;
-            }
-            
-            if (first)
-            {
-                max = number;
-                min = number;
-                first = false;
-            }
-            else
-            {
-                if (number > max)
+                System.out.println("Enter a number or 0 to quit: ");
+                number = scanner.nextInt();
+                
+                if (number == 0)
                 {
-                    max = number;
+                    break;
                 }
                 
-                if (number < min)
+                if (first)
                 {
+                    max = number;
                     min = number;
+                    first = false;
                 }
+                else
+                {
+                    if (number > max)
+                    {
+                        max = number;
+                    }
+                    
+                    if (number < min)
+                    {
+                        min = number;
+                    }
+                }
+                
+                System.out.println("Results so far:");
+                System.out.println("Largest number: " + max);
+                System.out.println("Smallest number: " + min);
             }
-            
-            System.out.println("Results so far:");
-            System.out.println("Largest number: " + max);
-            System.out.println("Smallest number: " + min);
         }
     }
 }
