@@ -46,5 +46,4 @@ public class Letter
         }
         return result; 
     }  
-    input.close();
 }
